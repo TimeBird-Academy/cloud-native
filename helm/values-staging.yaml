@@ -18,6 +18,4 @@ resources:
     memory: 128Mi
 
 configmap:
-  data:
-    version: 1.18.0 
-    key1: config1
+  data: "version:1.18.0;key1=config1"
