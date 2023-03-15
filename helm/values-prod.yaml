@@ -18,6 +18,6 @@ resources:
     memory: 256Mi
 
 configmap:
-  data: |
+  data:
     version: 1.17.0
     key2: config2
