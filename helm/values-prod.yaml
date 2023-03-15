@@ -18,6 +18,9 @@ resources:
     memory: 256Mi
 
 configmap:
-  data: |
-  version: 1.17.1
-  key1: config1
+  myFile: |
+    This is a multiline
+    value, aka heredoc.
+  myArray:
+    - key1=value1
+    - key2=value2
