@@ -12,10 +12,10 @@ spec:
     matchLables:
       app: nginx
       tag: alpine
-    strategy:
-      rollingUpdate:
-        maxSurge: 25%
-        maxUnvailabel: 25%
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnvailabel: 25%
     type: RollingUpdate
   template:
     metadata:
