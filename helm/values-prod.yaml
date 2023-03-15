@@ -18,4 +18,6 @@ resources:
     memory: 256Mi
 
 configmap:
-  data: "version: 1.17.1"
+  data: |
+  version: 1.17.1
+  key1: config1
