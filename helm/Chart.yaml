@@ -1,0 +1,8 @@
+apiVersion: v1
+version: 1.0.0
+name: nginx-development
+maintainers:
+  - name: Ethan Nguyen
+description: Install Nginx deployment manifests
+keywords:
+  - nginx
